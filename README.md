@@ -34,12 +34,18 @@ Aplikasi mobile e-commerce sepatu yang dibangun dengan Flutter, mengikuti desain
 ## 📱 Screenshot
 
 <div align="center">
-  <img src="https://via.placeholder.com/300x600?text=Login+Screen" alt="Login" width="200"/>
-  <img src="https://via.placeholder.com/300x600?text=Home+Screen" alt="Home" width="200"/>
-  <img src="https://via.placeholder.com/300x600?text=Profile+Screen" alt="Profile" width="200"/>
+  <img src="./screenshots/login.png" alt="Login Screen" width="250"/>
+  <img src="./screenshots/home.png" alt="Home Screen" width="250"/>
+  <img src="./screenshots/profile.png" alt="Profile Screen" width="250"/>
 </div>
 
-> 💡 **Tip**: Untuk menambahkan screenshot asli, ambil screenshot dari aplikasi Anda dan upload ke folder `screenshots/` di repository ini, lalu ganti URL di atas.
+<div align="center">
+  <img src="./screenshots/search.png" alt="Search Screen" width="250"/>
+  <img src="./screenshots/notification.png" alt="Notification Screen" width="250"/>
+  <img src="./screenshots/edit-profile.png" alt="Edit Profile Screen" width="250"/>
+</div>
+
+> 📸 **Catatan**: Screenshot diambil dari aplikasi yang berjalan di browser (Flutter Web)
 
 ## ✨ Fitur Utama
 
