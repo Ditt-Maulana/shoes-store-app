@@ -1,10 +1,44 @@
 # 🛍️ Shoe Store App - Flutter E-Commerce Application
 
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Material Design](https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Ditt-Maulana/shoes-store-app?style=social)](https://github.com/Ditt-Maulana/shoes-store-app/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Ditt-Maulana/shoes-store-app?style=social)](https://github.com/Ditt-Maulana/shoes-store-app/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/Ditt-Maulana/shoes-store-app)](https://github.com/Ditt-Maulana/shoes-store-app/issues)
+
+</div>
+
+---
+
 Aplikasi mobile e-commerce sepatu yang dibangun dengan Flutter, mengikuti desain modern dan clean dari Figma.
+
+## 📋 Table of Contents
+
+- [Screenshot](#-screenshot)
+- [Fitur Utama](#-fitur-utama)
+- [Design](#-design)
+- [Technology Stack](#-technology-stack)
+- [Dependencies](#-dependencies)
+- [Widget yang Digunakan](#-widget-yang-digunakan)
+- [Struktur Project](#-struktur-project)
+- [Cara Menjalankan](#-cara-menjalankan)
+- [Future Enhancements](#-future-enhancements)
+- [Known Issues](#-known-issues--solutions)
+- [Developer](#-developer)
 
 ## 📱 Screenshot
 
-![Shoe Store App](https://via.placeholder.com/800x400?text=Shoe+Store+App+Screenshot)
+<div align="center">
+  <img src="https://via.placeholder.com/300x600?text=Login+Screen" alt="Login" width="200"/>
+  <img src="https://via.placeholder.com/300x600?text=Home+Screen" alt="Home" width="200"/>
+  <img src="https://via.placeholder.com/300x600?text=Profile+Screen" alt="Profile" width="200"/>
+</div>
+
+> 💡 **Tip**: Untuk menambahkan screenshot asli, ambil screenshot dari aplikasi Anda dan upload ke folder `screenshots/` di repository ini, lalu ganti URL di atas.
 
 ## ✨ Fitur Utama
 
@@ -62,6 +96,22 @@ Aplikasi mobile e-commerce sepatu yang dibangun dengan Flutter, mengikuti desain
 - **State Management**: StatefulWidget
 - **Navigation**: Navigator 2.0
 - **UI Components**: Material Design 3
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+```
+
+> 💡 Aplikasi ini dibuat dengan Flutter murni tanpa package eksternal tambahan, menunjukkan kemampuan core Flutter.
 
 ## 📋 Widget yang Digunakan
 
@@ -161,6 +211,22 @@ Untuk melihat tampilan mobile di Chrome:
 - [x] Error handling
 - [x] Responsive layout
 
+## 🔮 Future Enhancements
+
+- [ ] Backend integration (REST API/Firebase)
+- [ ] Database lokal (SQLite/Hive)
+- [ ] Shopping cart functionality
+- [ ] Payment gateway integration
+- [ ] Product detail page
+- [ ] Wishlist feature
+- [ ] Order history
+- [ ] Push notifications
+- [ ] Image upload untuk profile
+- [ ] Dark mode support
+- [ ] Multi-language (i18n)
+- [ ] Animation & transitions
+- [ ] Unit & Widget testing
+
 ## 📝 Requirements Tugas
 
 ✅ Minimal 3 halaman (dibuat 8 halaman!)  
@@ -175,9 +241,33 @@ Untuk melihat tampilan mobile di Chrome:
 ## 👨‍💻 Developer
 
 **Nama**: Aditya Iman Maulana  
-**NIM**: A11.2025.16247
+**NIM**: A11.2025.16247      
 **Kelas**: BTNG  
 **Mata Kuliah**: Pemrograman Mobile  
+
+## 🐛 Known Issues & Solutions
+
+### Issue: Build error saat running
+**Solusi**: 
+```bash
+flutter clean
+flutter pub get
+flutter run
+```
+
+### Issue: Asset tidak muncul
+**Solusi**: Pastikan sudah menambahkan assets di `pubspec.yaml` dan jalankan `flutter pub get`
+
+### Issue: Hot reload tidak bekerja
+**Solusi**: Stop aplikasi dan run ulang dengan `flutter run`
+
+## 📞 Contact & Support
+
+Jika ada pertanyaan atau ingin berkontribusi:
+
+- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
+- 💼 LinkedIn: [Aditya Iman Maulana](https://linkedin.com/in/your-profile)
+- 🐙 GitHub: [@Ditt-Maulana](https://github.com/Ditt-Maulana)
 
 ## 📄 License
 
@@ -193,4 +283,4 @@ This project is created for educational purposes.
 
 **⭐ Don't forget to star this repo if you found it helpful!**
 
-Made with ❤️ by Aditya Iman Maulana
+Made with ❤️ by Ditt-Maulana
