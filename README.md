@@ -265,9 +265,11 @@ flutter run
 
 Jika ada pertanyaan atau ingin berkontribusi:
 
-- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
-- 💼 LinkedIn: [Aditya Iman Maulana](https://linkedin.com/in/your-profile)
+- 📧 Email: [gaharu0473@gmail.com](mailto:gaharu0473@gmail.com)
+- 💼 LinkedIn: [Aditya Iman Maulana](https://www.linkedin.com/in/ditt-maulana-78b5b9356)
 - 🐙 GitHub: [@Ditt-Maulana](https://github.com/Ditt-Maulana)
+- 📸 Instagram: [@adi7_ya_](https://www.instagram.com/adi7_ya_)
+- 🎵 TikTok: [@adtzen](https://www.tiktok.com/@adtzen)
 
 ## 📄 License
 
