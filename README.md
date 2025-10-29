@@ -111,8 +111,8 @@ lib/
 
 1. **Clone repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/shoe-store-app.git
-cd shoe-store-app
+git clone https://github.com/Ditt-Maulana/shoes-store-app.git
+cd shoes-store-app
 ```
 
 2. **Install dependencies**
@@ -174,9 +174,9 @@ Untuk melihat tampilan mobile di Chrome:
 
 ## 👨‍💻 Developer
 
-**Nama**: [Nama Anda]  
-**NIM**: [NIM Anda]  
-**Kelas**: [Kelas Anda]  
+**Nama**: Aditya Iman Maulana  
+**NIM**: A11.2025.16247
+**Kelas**: BTNG  
 **Mata Kuliah**: Pemrograman Mobile  
 
 ## 📄 License
@@ -192,4 +192,5 @@ This project is created for educational purposes.
 ---
 
 **⭐ Don't forget to star this repo if you found it helpful!**
-"# shoes-store-app" 
+
+Made with ❤️ by Aditya Iman Maulana
