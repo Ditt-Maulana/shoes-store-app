@@ -1,0 +1,41 @@
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android
+android/
+ios/
+linux/
+macos/
+windows/
+
+# Testing
+test/
+coverage/
+
+# Miscellaneous
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Documentation
+DOKUMENTASI_FINAL.md
+TUGAS_DOKUMENTASI.md
+

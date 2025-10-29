@@ -26,6 +26,7 @@ Aplikasi mobile e-commerce sepatu yang dibangun dengan Flutter, mengikuti desain
 - [Widget yang Digunakan](#-widget-yang-digunakan)
 - [Struktur Project](#-struktur-project)
 - [Cara Menjalankan](#-cara-menjalankan)
+- [Deploy ke Vercel](#-deploy-ke-vercel) 🌐 NEW
 - [Future Enhancements](#-future-enhancements)
 - [Known Issues](#-known-issues--solutions)
 - [Developer](#-developer)
@@ -194,6 +195,58 @@ Untuk melihat tampilan mobile di Chrome:
 2. Klik icon **Toggle Device Toolbar** (Ctrl+Shift+M)
 3. Pilih device: **iPhone 12 Pro** atau **Pixel 5**
 4. Recommended size: **400 x 800**
+
+## 🌐 Deploy ke Vercel
+
+### Metode 1: Deploy via Vercel Dashboard (Recommended)
+
+1. **Build aplikasi untuk web:**
+```bash
+flutter build web --release
+```
+
+2. **Push ke GitHub** (jika belum):
+```bash
+git add .
+git commit -m "Add Vercel config"
+git push origin main
+```
+
+3. **Deploy ke Vercel:**
+   - Buka [vercel.com](https://vercel.com)
+   - Login dengan GitHub
+   - Klik **"Add New Project"**
+   - Import repository: `shoes-store-app`
+   - Vercel akan auto-detect Flutter project
+   - Klik **"Deploy"**
+   - ✅ Done! App Anda live di `https://your-app.vercel.app`
+
+### Metode 2: Deploy via Vercel CLI
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Login ke Vercel
+vercel login
+
+# Deploy
+vercel
+
+# Production deploy
+vercel --prod
+```
+
+### ⚙️ Konfigurasi
+
+File `vercel.json` sudah disediakan dengan konfigurasi:
+- Build command: `flutter build web --release`
+- Output directory: `build/web`
+- SPA routing support
+
+### 🔗 Demo
+
+🚀 **Live Demo**: [Coming Soon]
 
 ## 🎯 Fitur yang Sudah Diimplementasikan
 
