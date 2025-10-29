@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "buildCommand": "bash build.sh",
-  "outputDirectory": "build/web",
-  "installCommand": "echo 'Installing Flutter via build script'",
   "routes": [
     {
       "src": "/(.*)",
