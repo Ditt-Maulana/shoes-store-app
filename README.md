@@ -246,7 +246,9 @@ File `vercel.json` sudah disediakan dengan konfigurasi:
 
 ### 🔗 Demo
 
-🚀 **Live Demo**: [Coming Soon]
+🚀 **Live Demo**: [https://shoes-store-app.vercel.app](https://shoes-store-app.vercel.app)
+
+> 💡 Aplikasi di-deploy menggunakan Vercel dengan auto-build dari GitHub
 
 ## 🎯 Fitur yang Sudah Diimplementasikan
 
