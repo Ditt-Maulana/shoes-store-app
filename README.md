@@ -246,9 +246,9 @@ File `vercel.json` sudah disediakan dengan konfigurasi:
 
 ### 🔗 Demo
 
-🚀 **Live Demo**: [https://shoes-store-app.vercel.app](https://shoes-store-app.vercel.app)
+🚀 **Live Demo**: [https://shoes-store.vercel.app](https://shoes-store.vercel.app)
 
-> 💡 Aplikasi di-deploy menggunakan Vercel dengan auto-build dari GitHub
+> 💡 Aplikasi di-deploy menggunakan Vercel. Buka di browser untuk melihat Flutter Shoe Store App secara live!
 
 ## 🎯 Fitur yang Sudah Diimplementasikan
 
